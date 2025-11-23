@@ -1,14 +1,14 @@
 Overview of Project: Pima Indian Diabetes Prediction
 
-Project Title
+1) Project Title--
 
 Pima Indian Diabetes Prediction using Support Vector Machine (SVM)
 
-Overview of the Project
+2)--Overview of the Project
 
 This project implements an end-to-end machine learning pipeline that classifies patients as either diabetic or non-diabetic based on diagnostic health data. Using the Pima Indian Diabetes Dataset, the main objective is to develop a reliable classification model that may be helpful in early risk assessment. It involves rigorous data standardization, splitting the data into training and test sets, and the actual training of a Support Vector Classifier. The final result is a high-accuracy model with strong generalization capability-that is, low overfitting-on unseen patient data.
 
-Features
+3)Features--
 
 The model makes a prediction based on eight quantitative diagnostic features:
 
@@ -30,7 +30,7 @@ Age: Age in years.
 
 The Target Feature is Outcome: 0 - Non-Diabetic, 1 - Diabetic
 
-● Technologies/Tools Used
+4) Technologies/Tools Used--
 
 Category
 
@@ -68,7 +68,7 @@ Scikit-learn (sklearn)
 
 Import the essential ML components: StandardScaler, train_test_split, svm.SVC and accuracy_score.
 
-● Steps to Install & Run the Project
+5) Steps to Install & Run the Project--
 
 This project is run within a standard Python environment, typically a Jupyter Notebook or a Python IDE.
 
@@ -95,7 +95,7 @@ The model training and evaluation cells will output the Training and Test Accura
 
 The last cell shows a single-point prediction.
 
-Following are test instructions:
+6)Following are test instructions--
 
 The Hold-out Method is used for testing the project, which involves an 80/20 split.
 
